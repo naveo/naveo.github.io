@@ -100,7 +100,7 @@ export default function Home() {
         </div>
 
         {/* FAQ section */}
-        <div className="w-full px-4 py-10 gap-4 flex flex-col">
+        <div className="w-full px-4 py-10 gap-4 flex flex-col md:max-w-[90%]">
           <h1 className="text-2xl">Frequently Asked Questions</h1>
           <FAQ />
         </div>

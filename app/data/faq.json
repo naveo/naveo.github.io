@@ -9,7 +9,7 @@
   },
   {
     "question": "I have installed naveo but the Docker cli complains about some socket, what's the issue?",
-    "answer": "You must change the docker context to use naveo < docker context use naveo >"
+    "answer": "You must change the docker context to use naveo either by click the context button from naveo's desktop app `bottom left corner` or running the cli command: < docker context use naveo >"
   },
   {
     "question": "Does naveo support Apple Silicon?",
