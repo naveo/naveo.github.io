@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Why develop another Docker Desktop while other free alternatives exist?",
+    "answer": "I initially started developing this for myself after noticing that most alternatives do not offer great user experience, or lack in features. As naveo grew I thought of polishing it and sharing it with my colleagues and the rest of the world. naveo aims to be a drop in replacement for Docker Desktop with all the great features that makes Docker Desktop awesome."
+  },
+  {
+    "question": "Does naveo support automatic network port forwarding?",
+    "answer": "Yes, at the moment naveo supports TCP ports forwarding with plans to implement UDP support soon."
+  },
+  {
+    "question": "I have installed naveo but the Docker cli complains about some socket, what's the issue?",
+    "answer": "You must change the docker context to use naveo < docker context use naveo >"
+  },
+  {
+    "question": "Does naveo support Apple Silicon?",
+    "answer": "No, currently I do not own an Apple Silicon device. Hopefully at some point I will afford to buy one."
+  },
+  {
+    "question": "Can I try naveo while I have Docker Desktop installed or I have to uninstall it first?",
+    "answer": "naveo can be used alongside Docker Desktop, you have the ability to switch between them by simply switching the Docker context."
+  },
+  {
+    "question": "Dose naveo supports file sharing?",
+    "answer": "Yes, naveo auto mounts the most common directories from macOS. Like /Users, /Volumes."
+  },
+  {
+    "question": "I am a developer, how can I support this project?",
+    "answer": "naveo is built using a number of technologies, so there's a great chance that many people will have experience contributing to its development. The backend virtualization `visorkit` is built with Swift, the network ports forwarding `portkit` is developed in Go language, and the desktop GUI app is built with Tauri using Typescript and Rust. Please check naveo's Github repository from the link at the top of the page."
+  },
+  {
+    "question": "Will naveo ever support Windows?",
+    "answer": "Not an easy feat, but never say never 😉"
+  }
+]
