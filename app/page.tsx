@@ -51,6 +51,7 @@ export default function Home() {
         <div className="gap-10 sm:flex-col sm:flex md:flex md:flex-row mx-4 items-center">
           <Easy />
           <div className="gap-4 flex flex-col pt-10 md:pt-0">
+            <h1 className="text-2xl font-semibold">User Experience First</h1>
             <p>
               naveo is a free and open source software application that is still
               in alpha development.
@@ -69,8 +70,9 @@ export default function Home() {
         <div className="gap-10 sm:flex-col sm:flex md:flex md:flex-row items-center mx-4">
           <OpenSource />
           <div className="gap-4 flex flex-col pt-10 md:pt-0">
+            <h1 className="text-2xl font-semibold">Compatible With Docker</h1>
             <p>
-              naveo is a promising alternative to Docker Desktop for Mac users,
+              naveo is a promising alternative to Docker Desktop for Mac users
               who are looking for a free and open source option. It is based on
               the Docker Engine, so it is compatible with all Docker images and
               containers. It is still under development, but it has the
@@ -83,7 +85,8 @@ export default function Home() {
         <div className="gap-10 sm:flex-col sm:flex md:flex md:flex-row items-center mx-4">
           <Developer />
           <div className="gap-4 flex flex-col pt-10 md:pt-0">
-            <p className="sm:gap-4 flex flex-col pt-10 md:pt-0t-10">
+            <h1 className="text-2xl font-semibold">Community Power</h1>
+            <p className="sm:gap-4 flex flex-col md:pt-0t-10">
               naveo has being developed by a single person, and with any open
               source application it will only grow by the help of community.
             </p>
@@ -101,7 +104,7 @@ export default function Home() {
 
         {/* FAQ section */}
         <div className="w-full px-4 py-10 gap-4 flex flex-col md:max-w-[90%]">
-          <h1 className="text-2xl">Frequently Asked Questions</h1>
+          <h1 className="text-2xl font-semibold">Frequently Asked Questions</h1>
           <FAQ />
         </div>
       </main>

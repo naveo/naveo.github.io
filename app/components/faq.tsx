@@ -9,12 +9,12 @@ function Generator() {
     return (
       <div
         key={item.question}
-        className="mx-auto w-full bg-slate-300 dark:bg-slate-900 p-2"
+        className="mx-auto w-full bg-slate-200 dark:bg-slate-950 p-2"
       >
         <Disclosure>
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex w-full justify-between rounded bg-slate-700 px-4 py-2 text-left text-sm text-slate-300 hover:bg-slate-700 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className="flex w-full justify-between rounded bg-slate-500 dark:bg-slate-800 px-4 py-2 text-left text-sm text-slate-200 hover:bg-slate-700 focus:outline-none">
                 <span>{item.question}</span>
                 <ChevronUpIcon
                   className={`${
@@ -22,7 +22,7 @@ function Generator() {
                   } h-5 w-5 text-slate-400`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-slate-800 dark:text-slate-400">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-slate-900 dark:text-slate-400">
                 {item.answer}
               </Disclosure.Panel>
             </>
