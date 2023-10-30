@@ -38,8 +38,7 @@ export default function Home() {
             <DownloadButton />
           </div>
           <p className="drop-shadow-md text-center">
-            Be advised that naveo is an alpha build, and it might damage your
-            system.
+            Be advised that naveo is an alpha software version.
             <br />
             Currently it only supports Intel macOS.
             <a href="#faq" className="underline font-light text-sm">
