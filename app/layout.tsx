@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'naveo',
   description: 'Free Open Source Docker Desktop Alternative for macOS',
+  verification: {
+    google: 'u7gqsOgcsd-NerRyF-7w1juNYC79FImODH4nI000bPk',
+  }
 };
 
 export default function RootLayout({
