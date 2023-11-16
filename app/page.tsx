@@ -2,7 +2,6 @@ import { Developer, Easy, OpenSource } from './components/Illustrations';
 import Contacts from './components/contacts';
 import DownloadButton from './components/download';
 import FAQ from './components/faq';
-import Logo from './components/logo';
 
 export default function Home() {
   return (
@@ -37,20 +36,20 @@ export default function Home() {
           <div>
             <DownloadButton />
           </div>
-          <p className="drop-shadow-md text-center">
+          <h2 className="droh2-shadow-md text-center">
             Be advised that naveo is an alpha software version.
             <br />
             Currently it only supports Intel macOS.
             <a href="#faq" className="underline font-light text-sm">
               see FAQ
             </a>
-          </p>
+          </h2>
         </div>
 
         <div className="gap-10 sm:flex-col sm:flex md:flex md:flex-row mx-4 items-center">
           <Easy />
           <div className="gap-4 flex flex-col pt-10 md:pt-0">
-            <h1 className="text-2xl font-semibold">User Experience First</h1>
+            <div className="text-2xl font-semibold">User Experience First</div>
             <p>
               naveo is a free and open source software application that is still
               in alpha development.
@@ -69,7 +68,7 @@ export default function Home() {
         <div className="gap-10 sm:flex-col sm:flex md:flex md:flex-row items-center mx-4">
           <OpenSource />
           <div className="gap-4 flex flex-col pt-10 md:pt-0">
-            <h1 className="text-2xl font-semibold">Compatible With Docker</h1>
+            <div className="text-2xl font-semibold">Compatible With Docker</div>
             <p>
               naveo is a promising alternative to Docker Desktop for Mac users
               who are looking for a free and open source option. It is based on
@@ -84,7 +83,7 @@ export default function Home() {
         <div className="gap-10 sm:flex-col sm:flex md:flex md:flex-row items-center mx-4">
           <Developer />
           <div className="gap-4 flex flex-col pt-10 md:pt-0">
-            <h1 className="text-2xl font-semibold">Community Power</h1>
+            <div className="text-2xl font-semibold">Community Power</div>
             <p className="sm:gap-4 flex flex-col md:pt-0t-10">
               naveo has being developed by a single person, and with any open
               source application it will only grow by the help of community.
@@ -103,7 +102,9 @@ export default function Home() {
 
         {/* FAQ section */}
         <div className="w-full px-4 py-10 gap-4 flex flex-col md:max-w-[90%]">
-          <h1 className="text-2xl font-semibold">Frequently Asked Questions</h1>
+          <div className="text-2xl font-semibold">
+            Frequently Asked Questions
+          </div>
           <FAQ />
         </div>
       </main>
